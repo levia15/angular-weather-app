@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { WeatherAppMainComponent } from './Components/weather-app-main/weather-app-main.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WeatherAppMainComponent
   ],
   imports: [
     BrowserModule
